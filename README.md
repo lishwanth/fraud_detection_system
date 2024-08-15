@@ -4,6 +4,28 @@
 ## Overview
 This project is a comprehensive Fraud Detection System that leverages neural networks to identify fraudulent transactions in financial datasets. It is designed with modularity and scalability in mind, adhering to best practices in software engineering and object-oriented programming (OOP). The system utilizes a range of open-source tools for data ingestion, preprocessing, model training, evaluation, and visualization.
 
+## Tools and Technologies
+
+### 1. **Python**
+   - The primary programming language used for developing the system. Python is known for its simplicity and a rich set of libraries, making it ideal for machine learning and data processing tasks.
+
+### 2. **PyTorch**
+   - A powerful deep learning framework used to build and train the neural network models. PyTorch is known for its dynamic computation graph and ease of use in building custom models.
+
+### 3. **Apache Kafka**
+   - Kafka is used for real-time data streaming. It allows for the ingestion of transaction data into the system as it occurs, making the fraud detection system responsive to new data in real-time.
+
+### 4. **PostgreSQL**
+   - A robust, open-source relational database system used for storing and managing transaction data. PostgreSQL supports advanced data types and performance optimizations, making it suitable for this project.
+
+### 5. **Redash**
+   - An open-source tool for querying, visualizing, and sharing data. Redash is integrated into the project for creating visual dashboards that help in analyzing model performance and data insights.
+
+### 6. **Kaggle Datasets**
+   - The project utilizes two key datasets:
+     - **Credit Card Fraud Detection Dataset**: A dataset of credit card transactions, labeled as fraudulent or non-fraudulent.
+     - **IEEE-CIS Fraud Detection Dataset**: A complex dataset combining transactional and identity information to detect fraudulent transactions.
+       
 ## Project Structure
 
 The project is organized into several key modules, each responsible for specific functionalities. Below is a detailed description of the structure:
@@ -41,27 +63,7 @@ fraud_detection_system/
 └── requirements.txt         # Lists the required Python packages for the project
 ```
 
-## Tools and Technologies
 
-### 1. **Python**
-   - The primary programming language used for developing the system. Python is known for its simplicity and a rich set of libraries, making it ideal for machine learning and data processing tasks.
-
-### 2. **PyTorch**
-   - A powerful deep learning framework used to build and train the neural network models. PyTorch is known for its dynamic computation graph and ease of use in building custom models.
-
-### 3. **Apache Kafka**
-   - Kafka is used for real-time data streaming. It allows for the ingestion of transaction data into the system as it occurs, making the fraud detection system responsive to new data in real-time.
-
-### 4. **PostgreSQL**
-   - A robust, open-source relational database system used for storing and managing transaction data. PostgreSQL supports advanced data types and performance optimizations, making it suitable for this project.
-
-### 5. **Redash**
-   - An open-source tool for querying, visualizing, and sharing data. Redash is integrated into the project for creating visual dashboards that help in analyzing model performance and data insights.
-
-### 6. **Kaggle Datasets**
-   - The project utilizes two key datasets:
-     - **Credit Card Fraud Detection Dataset**: A dataset of credit card transactions, labeled as fraudulent or non-fraudulent.
-     - **IEEE-CIS Fraud Detection Dataset**: A complex dataset combining transactional and identity information to detect fraudulent transactions.
 
 ## Setup Instructions
 
